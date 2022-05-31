@@ -3,10 +3,10 @@ name: BayuRDP
 on: [push, workflow_dispatch]
 
 jobs:
- build:
-	runs-on: windows-latest
+build:
+runs-on: windows-latest
 
-	steps:
+steps:
 - name: DOWNLOADING
   run: Invoke-WebRequest https://bin.equinox.io/c/iVmDzAyiaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
 - name: EXTRACT
