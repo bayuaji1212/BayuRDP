@@ -1,0 +1,22 @@
+name: BayuRDP
+
+on: [push, workflow_dispatch]
+
+jobs:
+ build:
+	runs-on: windows-latest
+
+	steps:
+	- name: DOWNLOADING
+	  run: Invoke-WebRequest https://bin.equinox.io/c/iVmDzAyiaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
+	- name: EXTRACT
+	  run: Expand-Archive ngrok.zip
+	- name: AUTENTIFIKASI
+	  run: .\ngrok\ngrok.exe authtoken 1U0icFYhFsY7CJ6wwgL1UvgBZho_2mDYCcpHYpUHc5n77Zw97
+	- name: ENABLE TS
+	  run: Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terimal Server\ -name "fDenyTSConnections" -Value 0
+	- run: Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
+	- run: Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' -name "UserAuthentication" -Value 1
+	- run: Set-LokalUser -Name "bayuadmin" -Password (ConvertTo-SecureString - AsPlainText "makanpagi1212" -Force)
+	- name: DONE!
+	  run: .\ngrok\ngrok.exe tcp3389
