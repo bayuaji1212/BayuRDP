@@ -1,17 +1,30 @@
-# RDP
-RDP
-How to use
+  ## ⬇️⚠️ JANGAN LUPA KLIK LINK DIBAWAH INI⚠️⬇️
 
-Just Fork this Repository, Go to Actions tab, Select the Windows-CRD workflow. Then select Run Workflow fill the following data in CRD Code and your Pin in the fields. After that, Press Start.
+ https://youtube.com/channel/UCqK3KOcJI1dmbyuiTIzlKIA?sub_confirmation=1
 
-Input the following code in the fields.
++ RDP Windows Gratis 6 Jam
 
-Get the Windows (Powershell) command from here:
++ Buat RDP Windows 10 Ram 7GB 2 Core Cpu Dengan Github:
 
-https://remotedesktop.google.com/headless
++ Tekan Tombol Fork untuk membuat RDP (Bagi Pengguna Android/HP Disilahkan Pake Mode Desktop).
 
-Enter you Six digit Pin code to Login
++ kunjungi https://dashboard.ngrok.com untuk mendapatkan NGROK_AUTH_TOKEN
 
-(Any Six digit Pin)
++ Di Dalam Repo ini Pergi ke Settings> Secrets> New repository secret
 
-Thats it... After 2-3 min of Initialize, Check your CRD Application or Account.
++ isi Nama: Masukan NGROK_AUTH_TOKEN
+
++ isi Value: Kunjungi https://dashboard.ngrok.com/auth/your-authtoken Copy Dan Paste di dalam value
+
++ Tekan Add secret
+
++ Pergi Ke Action <Klik Select workflow< Pilih Har Pito,Pencet Run workflow
+
++ Refresh Web/halaman dan masuk ke Har Pito> klik build
+
++ *Tunggu 1-5 menit*
+
++ Tekan Tombol panah menghadap ke bawah Yg bertuliskan (Connect RDP.) Untuk Mendapatkan IP, User, Password.
+
++  ```Peringatan jika Rdp close silahkan klik Action<Pilih Har Pito<Klik build, Klik titik tiga klik run-rensjob dan jalan kan lagi Rdp nya```
+
