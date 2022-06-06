@@ -1,4 +1,4 @@
-name: ZactechRDP
+name: BayuRDP
 
 on: workflow_dispatch
 
