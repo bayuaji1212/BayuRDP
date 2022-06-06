@@ -1,4 +1,4 @@
-  ## ⬇️⚠️ JANGAN LUPA KLIK LINK DIBAWAH INI⚠️⬇️
+﻿  ## ⬇️⚠️ JANGAN LUPA KLIK LINK DIBAWAH INI⚠️⬇️
 
  https://youtube.com/channel/UCqK3KOcJI1dmbyuiTIzlKIA?sub_confirmation=1
 
@@ -27,4 +27,5 @@
 + Tekan Tombol panah menghadap ke bawah Yg bertuliskan (Connect RDP.) Untuk Mendapatkan IP, User, Password.
 
 +  ```Peringatan jika Rdp close silahkan klik Action<Pilih Har Pito<Klik build, Klik titik tiga klik run-rensjob dan jalan kan lagi Rdp nya```
+
 
